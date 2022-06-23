@@ -22,9 +22,22 @@ h4 {
     text-align: center;
 }
 
-body {
+.background-image {
     background-image: url(/images/food.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: luminosity;
+    background-size: cover;  
+}
+
+body {
+    color: white;
+    background-color: #73777B;
+}
+
+.baozi,
+.lasagna,
+.pancakes,
+.pizza,
+.spaghetti {
+    height: auto;
+    width: 250px; 
 }

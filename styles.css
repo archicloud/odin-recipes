@@ -1,19 +1,30 @@
 .Header {
-    font-family: 'Lobster', cursive;
-    font-size: 45px;
+    font-family: 'Cinzel', serif;
+    font-size: 70px;
+    font-weight: 200;
+    color: white;
 }
 
 h4 {
-    font-family: 'Roboto'
+    font-family: 'Quattrocento', serif;
+    color: white;
 }
 
 .recipe-link {
     font-size: 12px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Cinzel', serif;
+    color: white;
 }
 
 .top-container,
 .middle-container,
 .bottom-container {
     text-align: center;
+}
+
+body {
+    background-image: url(/images/food.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
 }
